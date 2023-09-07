@@ -35,3 +35,13 @@ var areaofCircle=(num1:number):number=>{
 }
 var calculatedArea:number=areaofCircle(5)
 console.log(calculatedArea)
+// calculate the surface area of a Cube A=6a2 where a is the oneside length of  teh cube
+
+var AreaOfCube=(num1:number):number=>{
+    var  cubeArea:number=6*Math.pow(num1,2)
+    return cubeArea
+}
+var CalculatedAreaofCube:number=AreaOfCube(6)
+console.log(CalculatedAreaofCube)
+
+
