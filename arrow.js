@@ -34,3 +34,13 @@ var AreaOfCube = (num1) => {
 };
 var CalculatedAreaofCube = AreaOfCube(6);
 console.log(CalculatedAreaofCube);
+// write a table of 5 using arrow function
+var tableNumber = (tableinput, multiplier) => {
+    while (multiplier <= 20) {
+        var result = tableinput * multiplier;
+        console.log(result);
+        multiplier++;
+        // return result   
+    }
+};
+tableNumber(5, 1);

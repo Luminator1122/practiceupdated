@@ -44,4 +44,15 @@ var AreaOfCube=(num1:number):number=>{
 var CalculatedAreaofCube:number=AreaOfCube(6)
 console.log(CalculatedAreaofCube)
 
-
+// write a table of 5 using arrow function
+var tableNumber=(tableinput:number, multiplier:number)=>
+{
+while (multiplier<=20 )
+    {
+    var result:number=tableinput*multiplier
+    console.log(result)
+    multiplier++
+    // return result   
+    }
+}
+tableNumber(5,1)
